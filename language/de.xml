@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
+	<!-- ACP -->
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.qwebirc"><![CDATA[Quakenet Web-IRC]]></item>
+		<item name="wcf.acp.option.category.qwebirc.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.qwebirc.connection"><![CDATA[Verbindung]]></item>
+		<item name="wcf.acp.option.category.qwebirc.connection.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.qwebirc.appearance"><![CDATA[Darstellung]]></item>
+		<item name="wcf.acp.option.category.qwebirc.appearance.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.module_user_qwebirc"><![CDATA[Quakenet Web-IRC Integration]]></item>
+		<item name="wcf.acp.option.module_user_qwebirc.description"><![CDATA[Aktiviert die Quakenet Web-IRC Integration.]]></item>
+		<item name="wcf.acp.option.qwebirc_channels"><![CDATA[Chaträume]]></item>
+		<item name="wcf.acp.option.qwebirc_channels.description"><![CDATA[Tragen Sie hier die Chaträume (Channel) ohne(!) führendes '#' ein, welche beim Betreten des Chats automatisch betreten werden sollen. Mehrere Chaträume durch Komma trennen.]]></item>
+		<item name="wcf.acp.option.qwebirc_guestnick"><![CDATA[Gast-Nick]]></item>
+		<item name="wcf.acp.option.qwebirc_guestnick.description"><![CDATA[Hier können Sie ein Muster für Gast-Nicks angeben. Das Muster muss dabei irgendwo ein oder mehrere '.' enthalten, welche automatisch von QWebIRC mit Buchstaben und Zahlen ersetzt werden, damit es bei mehreren Gästen nicht zu Namenskonflikten kommt.<br />Wenn das Feld leer gelassen wird, werden die Gast-Nicks nach folgendem Muster von QWebIRC erstellt: "qwebirc_...."]]></item>
+		<item name="wcf.acp.option.qwebirc_height"><![CDATA[Höhe]]></item>
+		<item name="wcf.acp.option.qwebirc_height.description"><![CDATA[Geben Sie hier die gewünschte Höhe des Chats in Pixeln an.]]></item>
+		<item name="wcf.acp.option.qwebirc_nickprefix"><![CDATA[Nick Präfix]]></item>
+		<item name="wcf.acp.option.qwebirc_nickprefix.description"><![CDATA[Sie können hier einen Präfix angeben, der vor den Nick von registrierten Forumnutzern gesetzt wird.<br /><strong>HINWEIS:</strong> Nur Zeichen verwenden, die im IRC zulässig sind. Ein alleinstehendes _ am Anfang ist ebenfalls nicht zulässig.]]></item>
+		<item name="wcf.acp.option.qwebirc_server"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.qwebirc_server.description"><![CDATA[Geben Sie hier die URL zum Quakenet Web-IRC-Server an. Diesen Eintrag sollten Sie normalerweise nicht ändern!]]></item>
+		<item name="wcf.acp.option.qwebirc_settingsid"><![CDATA[Settings-ID]]></item>
+		<item name="wcf.acp.option.qwebirc_settingsid.description"><![CDATA[Hier können Sie die ID Ihrer Einstellungen bei QWebIRC eintragen, um das Aussehen des Chats zu individualisieren.<br />Um eine Settings-ID zu erhalten, besuchen Sie <strong>http://webchat.quakenet.org</strong> und wählen im Menü "Add webchat to your site".]]></item>
+		<item name="wcf.acp.option.qwebirc_useoptionprefix"><![CDATA[Profilfeld als Präfix]]></item>
+		<item name="wcf.acp.option.qwebirc_useoptionprefix.description"><![CDATA[Den Inhalt eines Userprofil-Feldes als Präfix verwenden.]]></item>
+		<item name="wcf.acp.option.qwebirc_nickprefixoption"><![CDATA[Profilfeld-ID]]></item>
+		<item name="wcf.acp.option.qwebirc_nickprefixoption.description"><![CDATA[Sie können hier die ID eines Benutzer-Profilfeldes angeben, dessen Inhalt dann als Präfix benutzt wird.<br /><strong>HINWEIS:</strong> In diesem Fall wird der Inhalt autom. in eckige Klammern '[]' gesetzt (z.B. für Clan-Kurzbezeichnungen u.ä.).]]></item>
+		<item name="wcf.acp.option.qwebirc_useoptionnick"><![CDATA[Profilfeld als Nick]]></item>
+		<item name="wcf.acp.option.qwebirc_useoptionnick.description"><![CDATA[Den Inhalt eines Userprofil-Feldes als Nick verwenden.]]></item>
+		<item name="wcf.acp.option.qwebirc_nickoption"><![CDATA[Profilfeld-ID]]></item>
+		<item name="wcf.acp.option.qwebirc_nickoption.description"><![CDATA[Sie können hier die ID eines Benutzer-Profilfeldes angeben, dessen Inhalt dann, bei angemeldeten Usern, an Stelle des Usernamens als Nick benutzt wird.]]></item>
+	</category>
+	
+	<!-- USER -->
+	<category name="wcf.qwebirc">
+		<item name="wcf.qwebirc.title"><![CDATA[Chat]]></item>
+		<item name="wcf.qwebirc.location"><![CDATA[<a href="index.php?page=QWebIRC">Web-IRC</a>]]></item>
+	</category>
+	
+	<!-- GROUP -->
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.message.canUseQWebIRC"><![CDATA[Quakenet Web-IRC]]></item>
+		<item name="wcf.acp.group.option.user.message.canUseQWebIRC.description"><![CDATA[Mitglieder dieser Benutzergruppe können den Quakenet Web-IRC Client benutzen.]]></item>
+	</category>
+
+	<!-- MENU -->
+	<category name="wcf.header.menu">
+		<item name="wcf.header.menu.qWebIRC"><![CDATA[Chat]]></item>
+	</category>
+</language>
